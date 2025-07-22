@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Besley, serif;
+  background: #ddd;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: #eee;
+  height: 35px;
+  color: rebeccapurple;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 1000;
+  margin-right: 20px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  flex-grow: 1; /* Pushes the buttons to the right */
+}
+
+.link1, .link2, .link3 {
+  margin-right: 15px;
+}
+
+.but {
+  display: flex;
+  gap: 8px;
+  color: purple;
+}
+.button1
+{
+      border: none;
+     border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+}
+.pfp
+{
+    background: rebeccapurple;
+    color: white; 
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    
+}
