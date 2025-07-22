@@ -1,0 +1,139 @@
+
+body {
+  margin: 0;
+}
+
+.header
+{
+    height: 500px;
+    background-color: #37003c;
+    margin: -8px;
+    padding: 0;
+}
+.intro
+{
+    display: flex;
+}
+.text
+{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 140px;
+}
+.pl_image
+{
+    height: 400px;
+}
+.Log_in
+{
+    width: 400px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 30px;
+    
+}
+.Log_in:hover
+
+{
+    color: white;
+    background-color: #37003c;
+}
+.info
+{
+    justify-content: center;
+    margin-left: 450px
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.card
+{
+    width: 300px;
+    margin-right: 100px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px rgba(0,0,0, 0.2);
+    border: #37003c solid;
+}
+.card img
+{
+    width: 100%;
+    height: auto;
+}
+.card-content
+{
+    padding: 16px;
+    background-color:#37003c; ;
+    color: white;
+}
+.card-content h3
+{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p
+{
+    font-size: x-large;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #b586b9;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.quote
+{
+    background-color: #e5e7eb;
+     height: 200px;
+     margin-top: 10px;
+     width: 100%;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.quote p
+{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.footer {
+  background-color: #37003c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #bbb;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
